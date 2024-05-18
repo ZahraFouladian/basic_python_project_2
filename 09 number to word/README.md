@@ -1,0 +1,47 @@
+# Number to Words Converter
+
+This project presents a Python script that converts a positive integer input from a user into its equivalent words. In other words, it translates numeric form into verbal form. For instance, if a user inputs "12345", the program will output "Twelve thousand three hundred forty five". Keep in mind that this program is designed to handle numbers with a maximum of 12 digits.
+
+```
+Input: 257
+Output: Two Hundred Fifty Seven
+
+Input: 600000
+Output: Six Hundred Thousand
+
+Input: 3890
+Output: Three Thousand Eight Hundred Ninety
+
+Input: 1000000
+Output: One Million
+```
+
+## Project Structure
+
+The project comprises two main components:
+
+- `README.md` file: This documentation file provides a comprehensive information about the project, its structure, requirements, as well as useful tips to successfully run the program.
+
+- The Python Script (`src` directory): This is where the main Python script for the number-to-word conversion is located. 
+
+```
+.
+├── README.md
+└── src
+    └── main.py
+```
+
+## Requirements
+
+The program does not rely on any third-party libraries or dependencies. It is purely written in Python 3 and does not need any additional modules for its functionality.
+
+## How To Run
+
+To run the program, you need to navigate to the `src` directory and run the `main.py` script using Python. You can do this by opening your terminal and typing the following commands:
+
+```bash
+cd src
+python main.py
+```
+
+The program will then ask you to enter a number to convert into words. You can enter any positive integer number with a maximum of 12 digits. The program will then output the equivalent words for the number you entered.
